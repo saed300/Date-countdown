@@ -20,6 +20,7 @@ function setDate() {
 
   if (difference < 0) {
     clearTimeout(setDate);
+    time.innerhtml = '';
     document.body.style.backgroundImage = "url('../img/birthday.jpeg')";
     document.body.style.backgroundSize = 'cover';
     document.body.style.backgroundRepeat = 'no-repeat';
